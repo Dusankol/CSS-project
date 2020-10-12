@@ -69,6 +69,12 @@ ul.mainMenu.visible{
   list-style-type: none;
   position: absolute;
   margin-top: 10px;
+  animation: move 2s;
+}
+
+@keyframes move {
+  0%{left:180px;}
+  100%{left:0px;}
 }
 
 ul.mainMenu.visible li:hover a{
